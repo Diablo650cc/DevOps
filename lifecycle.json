@@ -1,0 +1,15 @@
+{
+  "Rules": [
+    {
+      "Id": "DeleteOldReports",
+      "Status": "Enabled",
+      "Prefix": "reportes/",
+      "Expiration": {
+        "Days": 90
+      },
+      "NoncurrentVersionExpiration": {
+        "NoncurrentDays": 30
+      }
+    }
+  ]
+}

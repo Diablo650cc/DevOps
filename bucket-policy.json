@@ -1,0 +1,16 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::123456789012:role/LabRole"
+      },
+      "Action": "s3:*",
+      "Resource": [
+        "arn:aws:s3:::devops-storage-07097795",
+        "arn:aws:s3:::devops-storage-07097795/*"
+      ]
+    }
+  ]
+}
